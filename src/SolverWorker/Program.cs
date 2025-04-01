@@ -12,13 +12,11 @@ namespace SolverWorker
             int x = 3;
             int y = 4;
 
-            Console.WriteLine($"Solving with x={x} and y={y}");
-            int result = solver.Solve(x, y);
-            Console.WriteLine($"Result: {result}");
-
             try
             {
-                solver.Error();
+                Console.WriteLine($"Solving with x={x} and y={y}");
+                int result = solver.Solve(x, y);
+                Console.WriteLine($"Result: {result}");
             }
             catch (Exception ex)
             {
