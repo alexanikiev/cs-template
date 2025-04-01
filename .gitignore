@@ -1,0 +1,58 @@
+# Ignore build output
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# JetBrains Rider / ReSharper
+.idea/
+*.DotSettings
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Build artifacts
+*.dll
+*.exe
+*.app
+*.pdb
+
+# Package manager folders
+packages/
+.nuget/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Rider and Visual Studio config
+*.ncrunch*
+_ReSharper*/
+
+# dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Explicit ignore for src/ and tests/ project build folders
+/src/**/bin/
+/src/**/obj/
+/tests/**/bin/
+/tests/**/obj/
